@@ -1,0 +1,26 @@
+{
+    "name": "ndlog",
+    "version": "0.2.2",
+    "description": "console log like NSLog",
+    "main": "ndlog.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/digitarhythm/NDLog.git"
+    },
+    "keywords": [
+        "console",
+        "log",
+        "sprintf",
+        "check",
+        "write"
+    ],
+    "author": "Hajime Oh-yake",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/digitarhythm/NDLog/issues"
+    },
+    "homepage": "https://github.com/digitarhythm/NDLog#readme"
+}
