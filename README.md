@@ -2,21 +2,21 @@
 console log like NSLog
 
 ## Usage(CoffeeScript)
-----
-foo = "123"  
-bar = "456"  
-echo = require("ndlog").echo  
-echo("foo=%@, bar=%@", foo, bar)  
+`
+echo = require("ndlog").echo
+form = require("ndlog").form
 
-foo = "abc"  
-bar = "def"  
-form = require("ndlog").form  
-str = form("foo=%@, bar=%@", foo, bar)  
+foo = "123"
+bar = "456"
+echo("foo=%@, bar=%@", foo, bar)
+
+foo = "abc"
+bar = "def"
+str = form("foo=%@, bar=%@", foo, bar)
 console.log(str)
-----
-
- foo=123, bar=456
- foo=abc, bar=def
+`
+foo=123, bar=456
+foo=abc, bar=def
 
 ## explain
 'echo' is dispay format string when 'NODE_ENV' environment is 'develop'.
