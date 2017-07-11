@@ -20,9 +20,13 @@ console log like NSLog
     foo=abc, bar=def
 
 ## explain
-    'echo' is display format string when 'NODE_ENV' environment is 'develop'.
-    'form' is return format string.
-    zero binding number return 'form' method.
-    ex)
-    echo("foo=%05@", 12) -> 00012
+    'echo' is string display when 'NODE_ENV' environment is 'develop'.
+     Not display when 'NODE_ENV' is not 'develop'.
+     'form' is return format string.
+     'form' is return zero binding number too.
+     Write "%@" in the place where you want to display the variable.
+
+## examplle
+    echo("foo=%@", "abc") -> foo=abc
+    echo("bar=%05@", 12) -> bar=00012
 
