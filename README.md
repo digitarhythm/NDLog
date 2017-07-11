@@ -15,14 +15,14 @@ console log like NSLog
     str = form("foo=%@, bar=%@", foo, bar)
     console.log(str)
 
-### output)
+## output
     foo=123, bar=456
     foo=abc, bar=def
 
 ## explain
- 'echo' is dispay format string when 'NODE_ENV' environment is 'develop'.
- 'form' is return format string.
- zero binding number return 'form' method.
- ex)
- echo("foo=%05@", 12) -> 00012
+    'echo' is dispay format string when 'NODE_ENV' environment is 'develop'.
+    'form' is return format string.
+    zero binding number return 'form' method.
+    ex)
+    echo("foo=%05@", 12) -> 00012
 
