@@ -15,7 +15,7 @@ console log like NSLog
     str = form("foo=%@, bar=%@", foo, bar)
     console.log(str)
 
-output)
+### output)
     foo=123, bar=456
     foo=abc, bar=def
 
