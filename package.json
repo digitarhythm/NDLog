@@ -1,6 +1,6 @@
 {
     "name": "ndlog",
-    "version": "0.2.5",
+    "version": "0.3.0",
     "description": "console log like NSLog",
     "main": "ndlog.js",
     "scripts": {
